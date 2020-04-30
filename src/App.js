@@ -9,7 +9,7 @@ import Alert from 'components/Alert'
 import Navbar from './components/Navbar'
 
 import AlertPage from './pages/Alert'
-import LanginPage from './pages/Landing'
+import HomePage from './pages/Home'
 
 //
 
@@ -22,7 +22,7 @@ const App = () => {
           <Alert />
 
           <Switch>
-            <Route exact path='/' component={LanginPage} />
+            <Route exact path='/' component={HomePage} />
             <Route exact path='/alert' component={AlertPage} />
           </Switch>
         </Router>
