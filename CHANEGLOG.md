@@ -1,5 +1,1 @@
-- Added dependencies
-- Redux setup, store, persistor, alert reducer
-- setup router
-- Landing & Alert Pages
-- Alert Component
+- performance optimizations
