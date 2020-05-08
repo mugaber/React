@@ -12,7 +12,7 @@ export const useFetch = (url, specific) => {
     }
 
     fetchData()
-  }, [])
+  }, [url, specific])
 
   return data
 }

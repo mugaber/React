@@ -1,0 +1,12 @@
+.home-page__container {
+  min-height: 90vh;
+  background-color: var(--grey-light);
+}
+
+.home-page__header {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+
+  transform: translate(-50%, -50%);
+}

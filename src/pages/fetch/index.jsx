@@ -1,11 +1,9 @@
 import React from 'react'
 import { Posts, User } from 'components/Fetch'
 
-const HomePage = () => {
+export const Fetch = () => {
   return (
     <div>
-      <h1>Home page</h1>
-
       <User userId={2} />
 
       <Posts userId={2} postsNumber={5} />
@@ -13,4 +11,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default Fetch

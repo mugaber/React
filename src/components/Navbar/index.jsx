@@ -3,20 +3,23 @@ import './navbar.css'
 import { Link } from 'react-router-dom'
 import { Navbar } from 'react-bootstrap'
 
+const StyledLink = ({ to, name }) => (
+  <Link to={to} className="styled-button navbar-link">
+    {name}
+  </Link>
+)
+
 //
 
 export const AppNavbar = () => {
   return (
-    <Navbar bg='dark' variant='dark'>
+    <Navbar bg="dark" variant="dark">
       <Navbar.Brand>React</Navbar.Brand>
 
-      <Link to='/' className='styled-button navbar-link'>
-        Home
-      </Link>
-
-      <Link to='/alert' className='styled-button navbar-link'>
-        Alert
-      </Link>
+      <StyledLink to="/" name="Home" />
+      <StyledLink to="/alert" name="Alert" />
+      <StyledLink to="/fetch" name="Fetch" />
+      <StyledLink to="/transition" name="Transition" />
     </Navbar>
   )
 }

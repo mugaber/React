@@ -1,1 +1,1 @@
-- performance optimizations
+- react transitions and animations

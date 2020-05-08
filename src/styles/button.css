@@ -10,7 +10,7 @@
 .styled-button:hover {
   text-decoration: none;
   transform: translateY(-1px);
-  box-shadow: 1px 10px 40px 1px var(--gray);
+  box-shadow: 5px 5px 10px 0.5px var(--gray);
 }
 
 .styled-button:active {
