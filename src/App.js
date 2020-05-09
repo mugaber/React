@@ -12,6 +12,7 @@ import Spinner from 'components/Spinner/Spinner'
 import ErrorBoundary from 'components/ErrorBoundary'
 
 const HomePage = lazy(() => import('./pages/home'))
+const HooksPage = lazy(() => import('pages/hooks'))
 const AlertPage = lazy(() => import('./pages/alert'))
 const FetchPage = lazy(() => import('./pages/fetch'))
 const TransitionPage = lazy(() => import('pages/transition'))
@@ -20,6 +21,7 @@ const TransitionPage = lazy(() => import('pages/transition'))
 
 const routes = [
   { path: '/', component: HomePage },
+  { path: '/hooks', component: HooksPage },
   { path: '/alert', component: AlertPage },
   { path: '/fetch', component: FetchPage },
   { path: '/transition', component: TransitionPage }
